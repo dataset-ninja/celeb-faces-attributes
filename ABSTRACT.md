@@ -1,5 +1,3 @@
+The **Large-scale CelebFaces Attributes (CelebA) Dataset** comprises over 200,000 celebrity images, each annotated with 40 attributes. The dataset encompasses diverse images with significant pose variations and background clutter. CelebA boasts extensive diversities, large quantities, and rich annotations, including 10,177 identities, 202,599 face images, 5 landmark locations, and 40 binary attribute annotations per image. It serves as valuable training and test sets for various computer vision tasks, such as face attribute recognition, face recognition, face detection, landmark localization, and face editing & synthesis.
 
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
-
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+The authors of the dataset address the challenging task of predicting face attributes in diverse settings marked by complex face variations. They introduce a novel deep learning framework designed for attribute prediction in such wild conditions. The framework involves two cascaded CNNs, namely **LNet** and **ANet**, both fine-tuned jointly with attribute tags but pre-trained using different strategies. LNet undergoes pre-training with extensive general object categories for face localization, while ANet is pre-trained with numerous face identities for attribute prediction.
