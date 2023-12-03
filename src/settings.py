@@ -70,7 +70,51 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "The Chinese University of 
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.cuhk.edu.hk/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
+    "__PRETEXT__": "Additionally, every person has their own **id** tag",
+    "attributes": [
+        "5_o_clock_shadow",
+        "arched_eyebrows",
+        "attractive",
+        "bags_under_eyes",
+        "bald",
+        "bangs",
+        "big_lips",
+        "big_nose",
+        "black_hair",
+        "blond_hair",
+        "blurry",
+        "brown_hair",
+        "bushy_eyebrows",
+        "chubby",
+        "double_chin",
+        "eyeglasses",
+        "goatee",
+        "gray_hair",
+        "heavy_makeup",
+        "high_cheekbones",
+        "male",
+        "mouth_slightly_open",
+        "mustache",
+        "narrow_eyes",
+        "no_beard",
+        "oval_face",
+        "pale_skin",
+        "pointy_nose",
+        "receding_hairline",
+        "rosy_cheeks",
+        "sideburns",
+        "smiling",
+        "straight_hair",
+        "wavy_hair",
+        "wearing_earrings",
+        "wearing_hat",
+        "wearing_lipstick",
+        "wearing_necklace",
+        "wearing_necktie",
+        "young",
+    ],
+}
 TAGS: Optional[List[str]] = None
 
 
