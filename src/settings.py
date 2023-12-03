@@ -24,7 +24,12 @@ LICENSE: License = License.Custom(redistributable=False)
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.General()]
 CATEGORY: Category = Category.Entertainment()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [
+    CVTask.ObjectDetection(),
+    CVTask.Classification(),
+    CVTask.Identification(),
+    CVTask.WeaklySupervisedLearning(),
+]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
@@ -71,7 +76,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.cuhk.edu.hk/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, every person has their own **id** tag",
+    "__PRETEXT__": "Additionally, every person has their own ***id*** tag",
     "attributes": [
         "5_o_clock_shadow",
         "arched_eyebrows",
