@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "CelebA"
-PROJECT_NAME_FULL: str = "Large-scale CelebFaces Attributes (CelebA) Dataset"
+PROJECT_NAME_FULL: str = "CelebA: Large-Scale CelebFaces Attributes Dataset"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
