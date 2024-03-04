@@ -1,4 +1,4 @@
-**Large-scale CelebFaces Attributes (CelebA) Dataset** is a dataset for object detection, classification, identification, and weakly supervised learning tasks. It is applicable or relevant across various domains. 
+**CelebA: Large-Scale CelebFaces Attributes Dataset** is a dataset for object detection, classification, identification, and weakly supervised learning tasks. It is applicable or relevant across various domains. 
 
 The dataset consists of 202598 images with 1215588 labeled objects belonging to 6 different classes including *face*, *left eye*, *right eye*, and other: *nose*, *left mouth*, and *right mouth*.
 
